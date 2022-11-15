@@ -131,6 +131,7 @@ namespace ParticipationRoulette
                 String[] team = new String[membersPerTeam];
                 for (var j = 0; j < membersPerTeam; j++)
                 {
+                    // Vai escolher aleatoriamente um membro da lista
                     var random = new Random(DateTime.Now.Millisecond);
                     var  index = random.Next(students.Count);
                     var teamMember = students[index];
