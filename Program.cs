@@ -48,7 +48,7 @@ namespace ParticipationRoulette
             students.Add("NUNO PEREIRA");
             students.Add("DANIEL NOGUEIRA");
             students.Add("PEDRO MARQUES");
-            students.Add("BRUNO MoREIRA");
+            students.Add("BRUNO MOREIRA");
             students.Add("PEDRO MONTEIRO DA ROCHA");
             students.Add("JOÃO COSTA");
             students.Add("LUÍS MOREIRA");
@@ -141,6 +141,7 @@ namespace ParticipationRoulette
                 teams.Add(team);
             }
 
+            //Conta o número de equipas a ser criadas e apresenta os respetivos membros
             for(var i=0;i<teams.Count;i++)
             {
                 var team = teams[i];
