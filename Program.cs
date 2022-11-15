@@ -4,7 +4,7 @@ namespace ParticipationRoulette
     {
         static void Main(string[] args)
         {
-            bool showMenu = true;
+            var showMenu = true;
             while (showMenu)
             {
                 showMenu = MainMenu();
@@ -122,15 +122,15 @@ namespace ParticipationRoulette
 
             var membersPerTeam = CaptureInput();
 
-            int teamCount = students.Count / membersPerTeam;
+            var teamCount = students.Count / membersPerTeam;
             var teams = new List<String[]>();
 
             //This for cycle will create as many groups as needed
-            for (int i = 0; i < teamCount; i++)
+            for (var i = 0; i < teamCount; i++)
             {
                 //This for cycle will create team composition
                 String[] team = new String[membersPerTeam];
-                for (int j = 0; j < membersPerTeam; j++)
+                for (var j = 0; j < membersPerTeam; j++)
                 {
                     var random = new Random(DateTime.Now.Millisecond);
                     var  index = random.Next(students.Count);
@@ -141,12 +141,12 @@ namespace ParticipationRoulette
                 teams.Add(team);
             }
 
-            for(int i=0;i<teams.Count;i++)
+            for(var i=0;i<teams.Count;i++)
             {
                 var team = teams[i];
                 var groupNr = i+1;
                 Console.WriteLine("###################    Grupo" + groupNr + "    ###################");
-                for(int j=0; j < team.Length; j++)
+                for(var j=0; j < team.Length; j++)
                 {
                     Console.WriteLine(team[j]);
                 }
