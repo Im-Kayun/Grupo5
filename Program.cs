@@ -74,7 +74,6 @@ namespace ParticipationRoulette
             students.Add("FRANCISCO DIAS");
             students.Add("LEONARDO ANDRADE");
 
-            //Este é outro comentário que me tinha esquecido. 
             var random = new Random(DateTime.Now.Millisecond);
             var  index = random.Next(students.Count);
             
