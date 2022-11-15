@@ -92,7 +92,7 @@ namespace ParticipationRoulette
             students.Add("NUNO PEREIRA");
             students.Add("DANIEL NOGUEIRA");
             students.Add("PEDRO MARQUES");
-            students.Add("BRUNO MoREIRA");
+            students.Add("BRUNO MOREIRA");
             students.Add("PEDRO MONTEIRO DA ROCHA");
             students.Add("JOÃO COSTA");
             students.Add("LUÍS MOREIRA");
