@@ -43,36 +43,36 @@ namespace ParticipationRoulette
         private static void StudentToAnswer()
         {
             var students = new List<string>(){};
-            students.Add("AFONSO Almeida");
-            students.Add("PAULO Henriques");
-            students.Add("NUNO Pereira");
-            students.Add("DANIEL Nogueira");
-            students.Add("Pedro MARQUES");
-            students.Add("BRUNO Moreira");
-            students.Add("PEDRO MONTEIRO da Rocha");
-            students.Add("João Costa");
-            students.Add("LUÍS Moreira");
+            students.Add("AFONSO ALMEIDA");
+            students.Add("PAULO HENRIQUES");
+            students.Add("NUNO PEREIRA");
+            students.Add("DANIEL NOGUEIRA");
+            students.Add("PEDRO MARQUES");
+            students.Add("BRUNO MoREIRA");
+            students.Add("PEDRO MONTEIRO DA ROCHA");
+            students.Add("JOÃO COSTA");
+            students.Add("LUÍS MOREIRA");
             students.Add("BRUNO LOPES");
-            students.Add("MATHEUS Silva");
-            students.Add("CRISTIANO Loução");
+            students.Add("MATHEUS SILVA");
+            students.Add("CRISTIANO LOUÇÃO");
             students.Add("DIOGO SABINO");
-            students.Add("Gonçalo Freitas");
+            students.Add("GONÇALO FREITAS");
             students.Add("BRUNO MAGALHÃES");
             students.Add("GONÇALO PEREIRA");
             students.Add("NUNO FERRAZ");
             students.Add("DIOGO SILVA");
-            students.Add("SIMONE Santos");
-            students.Add("RAFAEL Silva");
+            students.Add("SIMONE SANTOS");
+            students.Add("RAFAEL SILVA");
             students.Add("PEDRO MARTINS");
             students.Add("PEDRO NEVES");
-            students.Add("TIAGO Pinto");
-            students.Add("GUSTAVO Ribeiro");
-            students.Add("JOÃO Barros");
+            students.Add("TIAGO PINTO");
+            students.Add("GUSTAVO RIBEIRO");
+            students.Add("JOÃO BARROS");
             students.Add("PEDRO COSTA");
-            students.Add("MARCOS Ribeiro");
-            students.Add("LEANDRO Luz");
+            students.Add("MARCOS RIBEIRO");
+            students.Add("LEANDRO LUZ");
             students.Add("FRANCISCO DIAS");
-            students.Add("LEONARDO Andrade");
+            students.Add("LEONARDO ANDRADE");
 
             //Get Random Value to find student
             //Este é outro comentário que me tinha esquecido. 
@@ -87,36 +87,36 @@ namespace ParticipationRoulette
         private static void GroupsComposition()
         {
             var students = new List<string>(){};
-            students.Add("AFONSO Almeida");
-            students.Add("PAULO Henriques");
-            students.Add("NUNO Pereira");
-            students.Add("DANIEL Nogueira");
-            students.Add("Pedro MARQUES");
-            students.Add("BRUNO Moreira");
-            students.Add("PEDRO MONTEIRO da Rocha");
-            students.Add("João Costa");
-            students.Add("LUÍS Moreira");
+            students.Add("AFONSO ALMEIDA");
+            students.Add("PAULO HENRIQUES");
+            students.Add("NUNO PEREIRA");
+            students.Add("DANIEL NOGUEIRA");
+            students.Add("PEDRO MARQUES");
+            students.Add("BRUNO MoREIRA");
+            students.Add("PEDRO MONTEIRO DA ROCHA");
+            students.Add("JOÃO COSTA");
+            students.Add("LUÍS MOREIRA");
             students.Add("BRUNO LOPES");
-            students.Add("MATHEUS Silva");
-            students.Add("CRISTIANO Loução");
+            students.Add("MATHEUS SILVA");
+            students.Add("CRISTIANO LOUÇÃO");
             students.Add("DIOGO SABINO");
-            students.Add("Gonçalo Freitas");
+            students.Add("GONÇALO FREITAS");
             students.Add("BRUNO MAGALHÃES");
             students.Add("GONÇALO PEREIRA");
             students.Add("NUNO FERRAZ");
             students.Add("DIOGO SILVA");
-            students.Add("SIMONE Santos");
-            students.Add("RAFAEL Silva");
+            students.Add("SIMONE SANTOS");
+            students.Add("RAFAEL SILVA");
             students.Add("PEDRO MARTINS");
             students.Add("PEDRO NEVES");
-            students.Add("TIAGO Pinto");
-            students.Add("GUSTAVO Ribeiro");
-            students.Add("JOÃO Barros");
+            students.Add("TIAGO PINTO");
+            students.Add("GUSTAVO RIBEIRO");
+            students.Add("JOÃO BARROS");
             students.Add("PEDRO COSTA");
-            students.Add("MARCOS Ribeiro");
-            students.Add("LEANDRO Luz");
+            students.Add("MARCOS RIBEIRO");
+            students.Add("LEANDRO LUZ");
             students.Add("FRANCISCO DIAS");
-            students.Add("LEONARDO Andrade");
+            students.Add("LEONARDO ANDRADE");
             
             Console.Clear();
 
